@@ -17,4 +17,10 @@ public class mobil {
         return jual;
         
     }
+    
+    void cetakHarga(){
+        System.out.println("Harga Mobil = "+hitungJual());
+    }
+    
+    
 }
