@@ -3,6 +3,13 @@ package praktek02.mamed;
 public class mobil {
     double harga;
     double jumlah;
+
+    public mobil(){
+        harga=500;
+        jumlah=90;
+        
+    }
+   
     
     void transportasi(){
         System.out.println("=========================");
@@ -10,6 +17,8 @@ public class mobil {
         System.out.println("Jumlah          :"+jumlah);
         System.out.println("=========================");
     }
+    
+    
     
     double hitungJual(){
         double jual;
