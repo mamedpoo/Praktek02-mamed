@@ -7,6 +7,7 @@ public class mobilaksi {
         Q1.jumlah = 5;
         
         Q1.transportasi();
+        System.out.println("Harga jual mobilnya = "+Q1.hitungJual());
     }
     
 }

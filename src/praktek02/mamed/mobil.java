@@ -9,6 +9,12 @@ public class mobil {
         System.out.println("Harga           :"+harga);
         System.out.println("Jumlah          :"+jumlah);
         System.out.println("=========================");
+    }
     
+    double hitungJual(){
+        double jual;
+        jual=harga*jumlah;
+        return jual;
+        
     }
 }
