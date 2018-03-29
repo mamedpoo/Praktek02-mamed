@@ -9,7 +9,13 @@ public class mobil {
         jumlah=90;
         
     }
+
+    public mobil(double harga, double jumlah) {
+        this.harga = harga;
+        this.jumlah = jumlah;
+    }
    
+    
     
     void transportasi(){
         System.out.println("=========================");
